@@ -1,15 +1,19 @@
-.info{
-  margin-left: 15px;
-}
+
 .container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-left: 20px;
+  gap: 40px;
 }
+.info{
+  margin-left: 15px;
+}
+
 .image img{
-  width: 550px;
+  width: 650px;
   height: 450px;
-  
+ 
   border-radius: 50px;
 }
 .button{
@@ -19,7 +23,11 @@
   color: gold;
   border-radius: 15px;
 }
+.title{
+  margin-top: ;
+}
 .reviews{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  margin-top: 400px;
 }

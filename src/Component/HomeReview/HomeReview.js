@@ -1,7 +1,6 @@
 import React from 'react';
-import './Review.css'
-
-const Review = ({review}) => {
+import './HomeReview';
+const HomeReview = ({review}) => {
   return (
     <div className='cart'>
       <div className='part'>
@@ -19,4 +18,4 @@ const Review = ({review}) => {
   );
 };
 
-export default Review;
+export default HomeReview;

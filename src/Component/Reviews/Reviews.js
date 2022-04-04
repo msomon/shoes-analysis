@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+
+import useProducts from '../Hooks/useProducts';
 import Review from '../Review/Review';
 import './Reviews.css'
 
 const Reviews = () => {
-  const [reviews,setReviews]=useState([])
-
-   useEffect( ()=>{
-     fetch('review.json')
-     .then(res=>res.json())
-     .then(data=>setReviews(data))
-   },[])
+  const [reviews,setReviews]= useProducts()
+   
   return (
     <div className='reviews'>
       {
@@ -17,6 +13,7 @@ const Reviews = () => {
       }
     </div>
   );
+  return [reviews,setReviews] 
 };
 
 export default Reviews;
