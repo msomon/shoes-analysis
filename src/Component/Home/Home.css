@@ -1,4 +1,7 @@
 
+.all-container{
+  margin-bottom: 40px;
+}
 .container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -24,10 +27,23 @@
   border-radius: 15px;
 }
 .title{
-  margin-top: ;
+  margin-top:350px ;
 }
 .reviews{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin-top: 400px;
+  margin-top: 100px;
+}
+.see-more{
+ width: 300px;
+ height: 40px;
+ border: 1px solid gold;
+ background-color: blue;
+ color: white;
+ justify-content: center;
+ align-items: center;
+ border-radius: 15px;
+ margin-left: 120px;
+ padding:10px 20px;
+ text-decoration: none;
 }

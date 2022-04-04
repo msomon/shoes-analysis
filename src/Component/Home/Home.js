@@ -1,5 +1,6 @@
 
 
+import { Link } from 'react-router-dom';
 import HomeReview from '../HomeReview/HomeReview';
 import useProducts from '../Hooks/useProducts';
 import './Home.css'
@@ -8,7 +9,7 @@ const Home = () => {
   
 const [reviews,setReviews]= useProducts()
   return (
-    <div>
+    <div className='all-container'>
       <div className='container'>
       <div className='info'>     
       <h1>YOUR CHOICE </h1>
@@ -22,14 +23,15 @@ const [reviews,setReviews]= useProducts()
       </div>
 
       <div className='review'>
-      <h1 className='title'>Reviews(3)</h1>
+      <h1 className='title'>Reviews(6..)</h1>
       <div className='reviews'>  
       {
         reviews.slice(0,3).map(review=><HomeReview review={review} key={review.id}></HomeReview>)
       }
+     
       </div>
+      <Link className='see-more' to="/reviews">See-More</Link>
       </div>
-      
       
     </div>
   );
