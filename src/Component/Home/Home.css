@@ -1,0 +1,25 @@
+.info{
+  margin-left: 15px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 40px;
+}
+.image img{
+  width: 550px;
+  height: 450px;
+  
+  border-radius: 50px;
+}
+.button{
+  height: 30px;
+  width: 100px;
+  background-color:blueviolet;
+  color: gold;
+  border-radius: 15px;
+}
+.reviews{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}

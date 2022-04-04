@@ -1,0 +1,45 @@
+[
+  {
+    "img": "images/img-1.jpg",
+    "name": "Md Hasan",
+    "id": "1",
+    "comment":"The Nike Winflo 8 is a budget-friendly shoe that doesn’t offer a whole lot of versatility but for the price, it’s a solid choice. I would recommend this shoe to someone who is just getting into",
+    "rating": 5
+  },
+  {
+    "img": "images/img-2.jpg",
+    "name": "Lokman",
+    "id": "2",
+    "comment":"The Adidas Adizero Takumi Sen 8 is a specialist racer best suited to 5 km races and short-distance interval workouts",
+    "rating": 4 
+  },
+  {
+    "img": "images/img-3.jpg",
+    "name": "Hasan",
+    "comment":"The Saucony Ride 15 is an excellent, well-rounded daily trainer with a very stable ride which is one of the lightest mid-range daily trainers." ,
+    "id": "3",
+    "rating": 4 
+  },
+  {
+    "img": "images/img-4.jpg",
+    "name": "Haider",
+    "comment":"The New Balance Fresh Foam More v3 is a maximal trainer that can log the miles and will last a good while. Although the price is high, they may just be worth it." ,
+    "id": "4",
+    "rating": 5
+  },
+  {
+    "img": "images/img-5.jpg",
+    "name": "Imran",
+    "comment": "The ASICS Gel-Nimbus Lite 3 is a lightweight, max-cushioned trainer for relaxed runs. It has a smooth, stable ride and is both softer and more flexible than most of the max-cushioned trainers on the.." ,
+    "id": "5",
+    "rating": 3 
+  },
+  {
+    "img": "images/img-6.jpg",
+    "name": "Somon",
+    "comment": "The ASICS Gel-Nimbus 24 is a super soft max cushioned trainer with a versatile ride. It has an onslaught of new updates, the biggest one being the addition of FF Blast+ foam in its midsole." ,
+    "id": "6",
+    "rating": 5 
+  }
+  
+]

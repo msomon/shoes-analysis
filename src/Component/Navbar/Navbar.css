@@ -1,0 +1,9 @@
+.navbar a{
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 30px;
+}
+.active-link{
+  color: blue;
+ 
+}
