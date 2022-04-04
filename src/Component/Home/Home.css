@@ -7,7 +7,7 @@
   grid-template-columns: repeat(2,1fr);
   margin-top: 60px;
   margin-left: 20px;
-  gap: 40px;
+  gap: 150px;
 }
 .info{
   margin-left: 15px;

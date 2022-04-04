@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+#Shoes-Analysis 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## live-site link:https://shoes-analysis-12.netlify.app/
+
 
 ## Available Scripts
 
