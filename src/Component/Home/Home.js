@@ -30,7 +30,7 @@ const [reviews,setReviews]= useProducts()
       }
      
       </div>
-      <Link className='see-more' to="/reviews">See-More</Link>
+      <Link className='see-more' to="/reviews">See-All-Reviews</Link>
       </div>
       
     </div>
