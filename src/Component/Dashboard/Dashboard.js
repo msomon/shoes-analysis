@@ -46,7 +46,7 @@ const Dashboard = () => {
   return (
       
     <div className='board'>
-         <div>
+         <div className='area-chart'>
          <h1>Month Wise Sell </h1>
         <AreaChart
           width={500}
@@ -67,7 +67,7 @@ const Dashboard = () => {
         </AreaChart>
   
       </div>
-      <div>
+      <div className='line-chart'>
         <h1>Investment VS Revenue</h1>
       <LineChart
       width={700}

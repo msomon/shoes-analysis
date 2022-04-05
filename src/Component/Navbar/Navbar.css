@@ -11,3 +11,11 @@
   color: blue;
  
 }
+@media(max-width:500px){
+  .navbar a{
+    
+font-size: 20px;
+margin-right: 15px;
+margin-left: 10px;
+  }
+}

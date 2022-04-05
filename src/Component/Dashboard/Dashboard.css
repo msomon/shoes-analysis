@@ -3,3 +3,19 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media(max-width:500px){
+  .board{
+    margin-top: 70px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .area-chart{
+   margin: auto;
+  }
+  .line-chart{
+  margin: auto;
+    /* width: 100px; */
+  }
+  
+}
