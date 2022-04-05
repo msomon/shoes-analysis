@@ -6,6 +6,7 @@ import Home from './Component/Home/Home';
 import Navbar from './Component/Navbar/Navbar';
 import Blogs from './Component/Blogs/Blogs'
 import About from './Component/About/About';
+import NotFound from './NotFound/NotFound';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
     <Route path='/dashboard' element ={<Dashboard></Dashboard>} ></Route>
     <Route path='/blogs' element ={<Blogs></Blogs>} ></Route>
     <Route path='/' element ={<About></About>} ></Route>
-
+   <Route path="*" element={<NotFound></NotFound>}></Route>
 
       </Routes>
     </div>
