@@ -1,7 +1,15 @@
 
 ## Shoes-Analysis 
 
+## (live-site link:)[https://shoes-analysis-12.netlify.app/]
 ## live-site link:https://shoes-analysis-12.netlify.app/
+
+ ## bullet point :
+
+*some reviews of shoes *
+* add arayChart in dashboard *
+* add lineChart in dashboard *
+* add rating in review *
 
 
 ## Available Scripts
